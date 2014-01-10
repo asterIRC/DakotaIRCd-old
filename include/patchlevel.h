@@ -27,7 +27,7 @@
 #include "serno.h"
 
 #ifndef IRCVERSION
-#define IRCVERSION	PACKAGE_NAME "-" PACKAGE_VERSION
+#define IRCVERSION	PACKAGE_NAME "-" PACKAGE_VERSION "+DakotaIRCd(0.1)"
 #endif
 
 #ifndef PATCHLEVEL
