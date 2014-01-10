@@ -1,3 +1,14 @@
+DakotaIRCD FAQ
+--------------
+Q: What are the differences between DakotaIRCd and SporksIRCd?
+A: DakotaIRCd builds (and calls itself SporksIRCd in production).
+   SporksIRCd has a broken build system.
+   DakotaIRCd is just SporksIRCd with a fixed-up build system, so it's not really
+   worth calling it a fork. But oh well, since this is forked (or sporked :P)
+   I have to call it Dakota.
+
+The original document is attached below.
+
 SporksIRCD FAQ
 --------------
 Q: What are the differences between ShadowIRCD and SporksIRCD?
