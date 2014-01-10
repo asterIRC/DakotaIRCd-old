@@ -1,4 +1,9 @@
-If you don't read this first, we won't help you.
+*** XXX: haven't actually changed shit
+*** Anyway, welcome to the Dakota project's
+*** build-system fix attempt
+*** for SporksIRCd!
+
+If you don't read this first, we won't make our totally flubbed attempt to help you.
 :-)
 
 ******************************* IMPORTANT *************************************
@@ -34,10 +39,12 @@ Feature Specific Requirements:
 
 *******************************************************************************
 
-- To report bugs in SporksIRCD, visit us at irc.sporksmoo.net #sporksircd
+- DakotaIRCd does not have a bug report system, but if you really need to
+  report a bug, go to irc.umbrellix.tk #asterirc - that's where you'll find the person
+  who fixed the build system of Sporks.
 
 - See the INSTALL document for info on configuring and compiling
-  SporksIRCD.
+  DakotaIRCd.
 
 - Please read doc/index.txt to get an overview of the current documentation.
 
