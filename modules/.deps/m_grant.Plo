@@ -83,9 +83,9 @@ m_grant.lo: m_grant.c ../include/stdinc.h \
  /usr/include/x86_64-linux-gnu/sys/param.h /usr/include/linux/param.h \
  /usr/include/x86_64-linux-gnu/asm/param.h \
  /usr/include/asm-generic/param.h /usr/include/netinet/tcp.h \
- /usr/include/arpa/inet.h ../include/modules.h /usr/include/ltdl.h \
- /usr/include/libltdl/lt_system.h /usr/include/libltdl/lt_error.h \
- /usr/include/libltdl/lt_dlloader.h ../include/msg.h ../include/hook.h \
+ /usr/include/arpa/inet.h ../include/modules.h ../libltdl/ltdl.h \
+ ../libltdl/libltdl/lt_system.h ../libltdl/libltdl/lt_error.h \
+ ../libltdl/libltdl/lt_dlloader.h ../include/msg.h ../include/hook.h \
  ../include/numeric.h ../include/client.h ../include/channel.h \
  ../include/s_conf.h /usr/include/openssl/rsa.h \
  /usr/include/openssl/asn1.h /usr/include/openssl/e_os2.h \
@@ -348,13 +348,13 @@ m_grant.lo: m_grant.c ../include/stdinc.h \
 
 ../include/modules.h:
 
-/usr/include/ltdl.h:
+../libltdl/ltdl.h:
 
-/usr/include/libltdl/lt_system.h:
+../libltdl/libltdl/lt_system.h:
 
-/usr/include/libltdl/lt_error.h:
+../libltdl/libltdl/lt_error.h:
 
-/usr/include/libltdl/lt_dlloader.h:
+../libltdl/libltdl/lt_dlloader.h:
 
 ../include/msg.h:
 

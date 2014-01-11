@@ -58,7 +58,7 @@ build_triplet = x86_64-unknown-linux-gnu
 host_triplet = x86_64-unknown-linux-gnu
 bin_PROGRAMS = ircd$(EXEEXT)
 subdir = .
-DIST_COMMON = $(am__configure_deps) $(srcdir)/Makefile.am \
+DIST_COMMON = README $(am__configure_deps) $(srcdir)/Makefile.am \
 	$(srcdir)/Makefile.in $(srcdir)/install-mod.sh.in \
 	$(top_srcdir)/configure $(top_srcdir)/doc/Makefile.in \
 	$(top_srcdir)/include/setup.h.in ChangeLog INSTALL NEWS TODO \
@@ -209,14 +209,14 @@ distuninstallcheck_listfiles = find . -type f -print
 am__distuninstallcheck_listfiles = $(distuninstallcheck_listfiles) \
   | sed 's|^\./|$(prefix)/|' | grep -v '$(infodir)/dir$$'
 distcleancheck_listfiles = find . -type f -print
-ACLOCAL = ${SHELL} /home/j4jackj/fuckircd/missing --run aclocal-1.11
+ACLOCAL = ${SHELL} /home/j4jackj/DakotaIRCd/missing --run aclocal-1.11
 ALLOCA = 
 AMTAR = $${TAR-tar}
 AM_DEFAULT_VERBOSITY = 0
 AR = ar
-AUTOCONF = ${SHELL} /home/j4jackj/fuckircd/missing --run autoconf
-AUTOHEADER = ${SHELL} /home/j4jackj/fuckircd/missing --run autoheader
-AUTOMAKE = ${SHELL} /home/j4jackj/fuckircd/missing --run automake-1.11
+AUTOCONF = ${SHELL} /home/j4jackj/DakotaIRCd/missing --run autoconf
+AUTOHEADER = ${SHELL} /home/j4jackj/DakotaIRCd/missing --run autoheader
+AUTOMAKE = ${SHELL} /home/j4jackj/DakotaIRCd/missing --run automake-1.11
 AWK = mawk
 CC = gcc -std=gnu99
 CCDEPMODE = depmode=gcc3
@@ -264,7 +264,7 @@ LTDLINCL = -I${top_srcdir}/libltdl
 LTLIBOBJS = 
 LT_OBJDIR = .libs
 MAINT = #
-MAKEINFO = ${SHELL} /home/j4jackj/fuckircd/missing --run makeinfo
+MAKEINFO = ${SHELL} /home/j4jackj/DakotaIRCd/missing --run makeinfo
 MANIFEST_TOOL = :
 MKDIR_P = /bin/mkdir -p
 MODULE_DIR = /home/j4jackj/ircd/modules
@@ -302,10 +302,10 @@ WARNFLAGS =  -Wall -Wformat -Wno-format-security -Wmissing-declarations -Wmissin
 YACC = bison -y
 YFLAGS = 
 ZLIB_LD = -lz
-abs_builddir = /home/j4jackj/fuckircd
-abs_srcdir = /home/j4jackj/fuckircd
-abs_top_builddir = /home/j4jackj/fuckircd
-abs_top_srcdir = /home/j4jackj/fuckircd
+abs_builddir = /home/j4jackj/DakotaIRCd
+abs_srcdir = /home/j4jackj/DakotaIRCd
+abs_top_builddir = /home/j4jackj/DakotaIRCd
+abs_top_srcdir = /home/j4jackj/DakotaIRCd
 ac_ct_AR = ar
 ac_ct_CC = gcc
 ac_ct_DUMPBIN = 
@@ -336,7 +336,7 @@ host_vendor = unknown
 htmldir = ${docdir}
 includedir = ${prefix}/include
 infodir = ${datarootdir}/info
-install_sh = ${SHELL} /home/j4jackj/fuckircd/install-sh
+install_sh = ${SHELL} /home/j4jackj/DakotaIRCd/install-sh
 libdir = ${exec_prefix}/lib
 libexecdir = ${prefix}/libexec/sporksircd
 localedir = ${datarootdir}/locale

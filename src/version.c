@@ -26,7 +26,7 @@
 #include "serno.h"
 
 const char *generation = "1";
-const char *creation = "Fri Jan 10 2014 at 14:39:53 CST";
+const char *creation = "Sat Jan 11 2014 at 14:11:06 PST";
 const char *platform = "Linux 3.2.0-4-amd64 x86_64";
 const char *ircd_version = IRCVERSION;
 const char *patchlevel = PATCHLEVEL;
@@ -97,7 +97,6 @@ const char *infotext[] =
   "http://svn.ratbox.org/svnroot/ircd-ratbox/trunk/CREDITS",
   " ",
   "Visit the SporksIRCD channel on IRC at: irc.sporksmoo.net #sporksircd",
-  " ",
   "",
   0,
 };

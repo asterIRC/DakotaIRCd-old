@@ -96,8 +96,8 @@ core/m_kick.lo: core/m_kick.c ../include/stdinc.h \
  ../include/snomask.h ../include/privilege.h ../include/client.h \
  ../include/match.h ../include/ircd.h ../include/numeric.h \
  ../include/send.h ../include/msg.h ../include/modules.h \
- /usr/include/ltdl.h /usr/include/libltdl/lt_system.h \
- /usr/include/libltdl/lt_error.h /usr/include/libltdl/lt_dlloader.h \
+ ../libltdl/ltdl.h ../libltdl/libltdl/lt_system.h \
+ ../libltdl/libltdl/lt_error.h ../libltdl/libltdl/lt_dlloader.h \
  ../include/msg.h ../include/hook.h ../include/parse.h ../include/hash.h \
  ../include/packet.h ../include/s_serv.h ../include/s_conf.h \
  ../include/hook.h
@@ -412,13 +412,13 @@ core/m_kick.lo: core/m_kick.c ../include/stdinc.h \
 
 ../include/modules.h:
 
-/usr/include/ltdl.h:
+../libltdl/ltdl.h:
 
-/usr/include/libltdl/lt_system.h:
+../libltdl/libltdl/lt_system.h:
 
-/usr/include/libltdl/lt_error.h:
+../libltdl/libltdl/lt_error.h:
 
-/usr/include/libltdl/lt_dlloader.h:
+../libltdl/libltdl/lt_dlloader.h:
 
 ../include/msg.h:
 

@@ -96,9 +96,9 @@ core/m_die.lo: core/m_die.c ../include/stdinc.h \
  ../include/snomask.h ../include/privilege.h ../include/ircd.h \
  ../include/match.h ../include/numeric.h ../include/logger.h \
  ../include/s_conf.h ../include/send.h ../include/msg.h \
- ../include/parse.h ../include/modules.h /usr/include/ltdl.h \
- /usr/include/libltdl/lt_system.h /usr/include/libltdl/lt_error.h \
- /usr/include/libltdl/lt_dlloader.h ../include/msg.h ../include/hook.h \
+ ../include/parse.h ../include/modules.h ../libltdl/ltdl.h \
+ ../libltdl/libltdl/lt_system.h ../libltdl/libltdl/lt_error.h \
+ ../libltdl/libltdl/lt_dlloader.h ../include/msg.h ../include/hook.h \
  ../include/s_newconf.h ../include/hash.h
 
 ../include/stdinc.h:
@@ -415,13 +415,13 @@ core/m_die.lo: core/m_die.c ../include/stdinc.h \
 
 ../include/modules.h:
 
-/usr/include/ltdl.h:
+../libltdl/ltdl.h:
 
-/usr/include/libltdl/lt_system.h:
+../libltdl/libltdl/lt_system.h:
 
-/usr/include/libltdl/lt_error.h:
+../libltdl/libltdl/lt_error.h:
 
-/usr/include/libltdl/lt_dlloader.h:
+../libltdl/libltdl/lt_dlloader.h:
 
 ../include/msg.h:
 

@@ -437,7 +437,7 @@ Copyright (C) 2012 Free Software Foundation, Inc.
 This config.status script is free software; the Free Software Foundation
 gives unlimited permission to copy, distribute and modify it."
 
-ac_pwd='/home/j4jackj/fuckircd/libratbox'
+ac_pwd='/home/j4jackj/DakotaIRCd/libratbox'
 srcdir='.'
 INSTALL='/usr/bin/install -c'
 MKDIR_P='/bin/mkdir -p'
@@ -977,12 +977,12 @@ S["mkdir_p"]="/bin/mkdir -p"
 S["MKDIR_P"]="/bin/mkdir -p"
 S["INSTALL_STRIP_PROGRAM"]="$(install_sh) -c -s"
 S["STRIP"]="strip"
-S["install_sh"]="${SHELL} /home/j4jackj/fuckircd/libratbox/install-sh"
-S["MAKEINFO"]="${SHELL} /home/j4jackj/fuckircd/libratbox/missing --run makeinfo"
-S["AUTOHEADER"]="${SHELL} /home/j4jackj/fuckircd/libratbox/missing --run autoheader"
-S["AUTOMAKE"]="${SHELL} /home/j4jackj/fuckircd/libratbox/missing --run automake-1.11"
-S["AUTOCONF"]="${SHELL} /home/j4jackj/fuckircd/libratbox/missing --run autoconf"
-S["ACLOCAL"]="${SHELL} /home/j4jackj/fuckircd/libratbox/missing --run aclocal-1.11"
+S["install_sh"]="${SHELL} /home/j4jackj/DakotaIRCd/libratbox/install-sh"
+S["MAKEINFO"]="${SHELL} /home/j4jackj/DakotaIRCd/libratbox/missing --run makeinfo"
+S["AUTOHEADER"]="${SHELL} /home/j4jackj/DakotaIRCd/libratbox/missing --run autoheader"
+S["AUTOMAKE"]="${SHELL} /home/j4jackj/DakotaIRCd/libratbox/missing --run automake-1.11"
+S["AUTOCONF"]="${SHELL} /home/j4jackj/DakotaIRCd/libratbox/missing --run autoconf"
+S["ACLOCAL"]="${SHELL} /home/j4jackj/DakotaIRCd/libratbox/missing --run aclocal-1.11"
 S["VERSION"]="libratbox"
 S["PACKAGE"]="silent-rules"
 S["CYGPATH_W"]="echo"

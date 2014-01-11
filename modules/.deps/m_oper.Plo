@@ -96,9 +96,9 @@ m_oper.lo: m_oper.c ../include/stdinc.h ../libratbox/include/ratbox_lib.h \
  ../include/match.h ../include/ircd.h ../include/numeric.h \
  ../include/s_conf.h ../include/s_newconf.h ../include/logger.h \
  ../include/s_user.h ../include/send.h ../include/msg.h \
- ../include/parse.h ../include/modules.h /usr/include/ltdl.h \
- /usr/include/libltdl/lt_system.h /usr/include/libltdl/lt_error.h \
- /usr/include/libltdl/lt_dlloader.h ../include/msg.h ../include/hook.h \
+ ../include/parse.h ../include/modules.h ../libltdl/ltdl.h \
+ ../libltdl/libltdl/lt_system.h ../libltdl/libltdl/lt_error.h \
+ ../libltdl/libltdl/lt_dlloader.h ../include/msg.h ../include/hook.h \
  ../include/packet.h ../include/cache.h
 
 ../include/stdinc.h:
@@ -421,13 +421,13 @@ m_oper.lo: m_oper.c ../include/stdinc.h ../libratbox/include/ratbox_lib.h \
 
 ../include/modules.h:
 
-/usr/include/ltdl.h:
+../libltdl/ltdl.h:
 
-/usr/include/libltdl/lt_system.h:
+../libltdl/libltdl/lt_system.h:
 
-/usr/include/libltdl/lt_error.h:
+../libltdl/libltdl/lt_error.h:
 
-/usr/include/libltdl/lt_dlloader.h:
+../libltdl/libltdl/lt_dlloader.h:
 
 ../include/msg.h:
 

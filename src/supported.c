@@ -293,7 +293,7 @@ isupport_prefix(const void *ptr)
 		    ConfigChannel.use_founder ? "u" : "",
 		    ConfigChannel.use_admin ? "a" : "",
 		    ConfigChannel.use_halfop ? "h" : "", ConfigChannel.use_founder ? "~" : "",
-		    ConfigChannel.use_admin ? "!" : "", ConfigChannel.use_halfop ? "%" : "");
+		    ConfigChannel.use_admin ? "&" : "", ConfigChannel.use_halfop ? "%" : "");
 	return result;
 }
 

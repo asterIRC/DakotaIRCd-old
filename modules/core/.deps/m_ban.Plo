@@ -97,8 +97,8 @@ core/m_ban.lo: core/m_ban.c ../include/stdinc.h \
  ../include/client.h ../include/common.h ../include/config.h \
  ../include/ircd.h ../include/match.h ../include/s_conf.h \
  ../include/s_newconf.h ../include/msg.h ../include/modules.h \
- /usr/include/ltdl.h /usr/include/libltdl/lt_system.h \
- /usr/include/libltdl/lt_error.h /usr/include/libltdl/lt_dlloader.h \
+ ../libltdl/ltdl.h ../libltdl/libltdl/lt_system.h \
+ ../libltdl/libltdl/lt_error.h ../libltdl/libltdl/lt_dlloader.h \
  ../include/msg.h ../include/hook.h ../include/hash.h ../include/s_serv.h \
  ../include/operhash.h ../include/reject.h ../include/hostmask.h
 
@@ -418,13 +418,13 @@ core/m_ban.lo: core/m_ban.c ../include/stdinc.h \
 
 ../include/modules.h:
 
-/usr/include/ltdl.h:
+../libltdl/ltdl.h:
 
-/usr/include/libltdl/lt_system.h:
+../libltdl/libltdl/lt_system.h:
 
-/usr/include/libltdl/lt_error.h:
+../libltdl/libltdl/lt_error.h:
 
-/usr/include/libltdl/lt_dlloader.h:
+../libltdl/libltdl/lt_dlloader.h:
 
 ../include/msg.h:
 

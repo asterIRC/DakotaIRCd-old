@@ -212,8 +212,8 @@ find_channel_status(struct membership *msptr, int combine)
 	if(is_admin(msptr))
 	{
 		if(!combine)
-			return "!";
-		*p++ = '!';
+			return "&";
+		*p++ = '&';
 	}
 
 	if(is_chanop(msptr))

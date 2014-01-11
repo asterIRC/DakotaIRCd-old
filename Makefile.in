@@ -58,7 +58,7 @@ build_triplet = @build@
 host_triplet = @host@
 bin_PROGRAMS = ircd$(EXEEXT)
 subdir = .
-DIST_COMMON = $(am__configure_deps) $(srcdir)/Makefile.am \
+DIST_COMMON = README $(am__configure_deps) $(srcdir)/Makefile.am \
 	$(srcdir)/Makefile.in $(srcdir)/install-mod.sh.in \
 	$(top_srcdir)/configure $(top_srcdir)/doc/Makefile.in \
 	$(top_srcdir)/include/setup.h.in ChangeLog INSTALL NEWS TODO \

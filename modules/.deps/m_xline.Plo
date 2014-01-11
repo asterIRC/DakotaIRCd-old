@@ -98,11 +98,11 @@ m_xline.lo: m_xline.c ../include/stdinc.h \
  ../include/class.h ../include/ircd.h ../include/numeric.h \
  ../include/logger.h ../include/s_serv.h ../include/whowas.h \
  ../include/match.h ../include/hash.h ../include/msg.h ../include/parse.h \
- ../include/modules.h /usr/include/ltdl.h \
- /usr/include/libltdl/lt_system.h /usr/include/libltdl/lt_error.h \
- /usr/include/libltdl/lt_dlloader.h ../include/msg.h ../include/hook.h \
- ../include/s_conf.h ../include/s_newconf.h ../include/reject.h \
- ../include/bandbi.h ../include/operhash.h
+ ../include/modules.h ../libltdl/ltdl.h ../libltdl/libltdl/lt_system.h \
+ ../libltdl/libltdl/lt_error.h ../libltdl/libltdl/lt_dlloader.h \
+ ../include/msg.h ../include/hook.h ../include/s_conf.h \
+ ../include/s_newconf.h ../include/reject.h ../include/bandbi.h \
+ ../include/operhash.h
 
 ../include/stdinc.h:
 
@@ -430,13 +430,13 @@ m_xline.lo: m_xline.c ../include/stdinc.h \
 
 ../include/modules.h:
 
-/usr/include/ltdl.h:
+../libltdl/ltdl.h:
 
-/usr/include/libltdl/lt_system.h:
+../libltdl/libltdl/lt_system.h:
 
-/usr/include/libltdl/lt_error.h:
+../libltdl/libltdl/lt_error.h:
 
-/usr/include/libltdl/lt_dlloader.h:
+../libltdl/libltdl/lt_dlloader.h:
 
 ../include/msg.h:
 

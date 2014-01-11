@@ -97,8 +97,8 @@ m_set.lo: m_set.c ../include/stdinc.h ../libratbox/include/ratbox_lib.h \
  ../include/send.h ../include/common.h ../include/channel.h \
  ../include/s_conf.h ../include/s_user.h ../include/s_newconf.h \
  ../include/msg.h ../include/parse.h ../include/modules.h \
- /usr/include/ltdl.h /usr/include/libltdl/lt_system.h \
- /usr/include/libltdl/lt_error.h /usr/include/libltdl/lt_dlloader.h \
+ ../libltdl/ltdl.h ../libltdl/libltdl/lt_system.h \
+ ../libltdl/libltdl/lt_error.h ../libltdl/libltdl/lt_dlloader.h \
  ../include/msg.h ../include/hook.h
 
 ../include/stdinc.h:
@@ -423,13 +423,13 @@ m_set.lo: m_set.c ../include/stdinc.h ../libratbox/include/ratbox_lib.h \
 
 ../include/modules.h:
 
-/usr/include/ltdl.h:
+../libltdl/ltdl.h:
 
-/usr/include/libltdl/lt_system.h:
+../libltdl/libltdl/lt_system.h:
 
-/usr/include/libltdl/lt_error.h:
+../libltdl/libltdl/lt_error.h:
 
-/usr/include/libltdl/lt_dlloader.h:
+../libltdl/libltdl/lt_dlloader.h:
 
 ../include/msg.h:
 
