@@ -1,0 +1,26 @@
+From ac0707aa61d9c20e9b09062294701567c9f41595 Mon Sep 17 00:00:00 2001
+From: William Pitcock <nenolod@dereferenced.org>
+Date: Mon, 31 Dec 2012 13:13:05 -0600
+Subject: [PATCH] m_capab: fix a possible remote crash triggered by the CAPAB
+ parsing code.
+
+---
+ modules/m_capab.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/modules/m_capab.c b/modules/m_capab.c
+index 54e9a53..b03fb3f 100644
+--- a/modules/m_capab.c
++++ b/modules/m_capab.c
+@@ -38,7 +38,7 @@
+ 
+ struct Message capab_msgtab = {
+ 	"CAPAB", 0, 0, 0, MFLG_SLOW | MFLG_UNREG,
+-	{{mr_capab, 0}, mg_ignore, mg_ignore, mg_ignore, mg_ignore, mg_ignore}
++	{{mr_capab, 2}, mg_ignore, mg_ignore, mg_ignore, mg_ignore, mg_ignore}
+ };
+ struct Message gcap_msgtab = {
+ 	"GCAP", 0, 0, 0, MFLG_SLOW,
+-- 
+1.8.5.1
+
