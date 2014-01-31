@@ -26,7 +26,7 @@
 #include "serno.h"
 
 const char *generation = "1";
-const char *creation = "Wed Jan 15 2014 at 23:34:21 PST";
+const char *creation = "Thu Jan 23 2014 at 15:48:21 PST";
 const char *platform = "Linux 3.2.0-4-amd64 x86_64";
 const char *ircd_version = IRCVERSION;
 const char *patchlevel = PATCHLEVEL;
